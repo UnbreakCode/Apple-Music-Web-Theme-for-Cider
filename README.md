@@ -1,8 +1,12 @@
 # Apple Music Web Theme for [Cider Music](https://cider.sh)
 
-An Apple Music Web theme for [Cider Music](https://cider.sh)
-
+An Apple Music Web theme for [Cider Music](https://cider.sh)<br><br>
+Main Theme:
 ![image](https://user-images.githubusercontent.com/34512773/154338987-b34f81a0-707a-4998-989a-f47e8ef05889.png)
+
+Top-Bar:
+![image](https://user-images.githubusercontent.com/34512773/154370210-b1f57ffa-c548-4f6e-8f84-e1b43399cecb.png)
+<br><br>
 
 ## How to install
 ### Using Cider Music
