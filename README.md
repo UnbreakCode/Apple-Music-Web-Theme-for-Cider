@@ -1,6 +1,6 @@
 # Apple Music Web Theme for [Cider Music](https://cider.sh)
 
-An Apple Music on web theme for [Cider Music](https://cider.sh)
+An Apple Music Web theme for [Cider Music](https://cider.sh)
 
 ![image](https://user-images.githubusercontent.com/34512773/154338987-b34f81a0-707a-4998-989a-f47e8ef05889.png)
 
