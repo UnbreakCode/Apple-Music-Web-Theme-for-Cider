@@ -1,3 +1,5 @@
+// MAIN THEME FROM vapormusic -> https://github.com/vapormusic/CiderTunes
+
 #app {
   --color1: rgb(60 60 67/ 2%);
   --color2: rgb(203 203 203 / 30%);
@@ -266,6 +268,21 @@ body .app-chrome .app-chrome-item > .window-controls {
   width: 67px;
 }
 
+body .app-chrome .app-chrome-item > .window-controls > div.minimize {
+  height: 12px;
+  width: 12px;
+  background-color: rgb(255, 189, 76);;
+  border-radius: 50%;
+  margin: 0px;
+  -webkit-app-region: no-drag;
+  background-image: unset;
+  margin-left: 10px;
+  position: absolute;
+  right: 29px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 body .app-chrome .app-chrome-item > .window-controls > div.minmax {
   height: 12px;
   width: 12px;
@@ -281,21 +298,6 @@ body .app-chrome .app-chrome-item > .window-controls > div.minmax {
   &.restore{
     background-image: unset !important;
   }
-}
-
-body .app-chrome .app-chrome-item > .window-controls > div.minimize {
-  height: 12px;
-  width: 12px;
-  background-color: rgb(255, 189, 76);;
-  border-radius: 50%;
-  margin: 0px;
-  -webkit-app-region: no-drag;
-  background-image: unset;
-  margin-left: 10px;
-  position: absolute;
-  right: 29px;
-  top: 50%;
-  transform: translate(0, -50%);
 }
 
 body .app-chrome .app-chrome-item > .window-controls > div.close {
