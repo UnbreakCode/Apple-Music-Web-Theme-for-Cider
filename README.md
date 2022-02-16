@@ -14,4 +14,5 @@ An Apple Music on web theme for [Cider Music](https://cider.sh)
 
 ## License and Credits
 [MIT License](./LICENSE)
+<br>
 Main theme and inspired by [@Vapormusic/CiderTunes](https://github.com/vapormusic/CiderTunes)
