@@ -179,20 +179,8 @@
       color: var(--textColor);
     }
 
-    .floating-header {
-      background: #eee9;
-      color: var(--textColor);
-    }
+
   }
-
-  .playlist-page {
-    .floating-header {
-      background: #eee9;
-      color: var(--textColor);
-    }
-  }
-
-
   .app-drawer {
     color: var(--textColor);
     height: 100%;
@@ -622,4 +610,14 @@ input[type=checkbox][switch]:checked {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #4d4d4d;
+}
+
+.playlist-page .playlist-display .artworkContainer {
+  margin-top: none;
+  top: unset;
+}
+
+.playlist-page .floating-header {
+  position: unset;
+  top: unset;
 }
