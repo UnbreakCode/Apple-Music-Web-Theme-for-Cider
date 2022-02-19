@@ -98,54 +98,57 @@
     }
   }
 
-  .app-chrome .app-chrome-item > .app-playback-controls {
-    // border: solid darkgray;
-    border-width: 0px;
-    .artwork{
-      width: 55px;
-      height: 55px;
-      margin-left: 0px;
-      margin-right: -2.25px;
-      margin-bottom: 0px;
-      margin-top: 0px;
-      border-radius: 0px;
-      .mediaitem-artwork{
-        border-radius: 0px;
-      }
-    }
-    .song-progress{
-      bottom: -4px;
-      right: 1px;
-      z-index: 30;
-      input[type="range"]{
-        border-radius: 0px;
-          // &::-webkit-slider-thumb{
-          // z-index: 30;
-          // display: flex;
-          // overflow: visible;
-          // } 
-      }
-      .song-duration{
-        margin-left: 2px;
-        margin-right: 2px;
-      }
-    }
-    .song-name{
-      max-width: unset;
-      width: 100%;
-      padding-left: 0.5%;
-      padding-right: 1%;
-    }
-    >div > .song-artist-album{
-        width: 98%;
-        max-width: unset;
-        .song-artist-album-content{
-          font-size: 13px;
-        }
-    }
+  .app-chrome .app-chrome-item {
+    border-right: none;
+    border-left: none;
 
-    .actions{
-      display: none;
+    .app-playback-controls {
+      .artwork {
+        width: 55px;
+        height: 55px;
+        margin-left: 0px;
+        margin-right: -2.25px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 0px;
+        .mediaitem-artwork{
+          border-radius: 0px;
+        }
+      }
+      .song-progress {
+        bottom: -4px;
+        right: 1px;
+        z-index: 30;
+        input[type="range"] {
+          border-radius: 0px;
+            // &::-webkit-slider-thumb{
+            // z-index: 30;
+            // display: flex;
+            // overflow: visible;
+            // } 
+        }
+        .song-duration {
+          margin-left: 2px;
+          margin-right: 2px;
+        }
+      }
+      .song-name {
+        max-width: unset;
+        width: 100%;
+        padding-left: 0.5%;
+        padding-right: 1%;
+      }
+      div > .song-artist-album {
+          width: 98%;
+          max-width: unset;
+          .song-artist-album-content {
+            font-size: 13px;
+          }
+      }
+
+      .actions {
+        display: none;
+      }
     }
   }
 
