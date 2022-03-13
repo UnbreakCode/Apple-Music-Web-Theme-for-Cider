@@ -2,10 +2,11 @@
 
 An Apple Music Web theme for [Cider Music](https://cider.sh)<br><br>
 Main Theme:
-![image](https://user-images.githubusercontent.com/34512773/154338987-b34f81a0-707a-4998-989a-f47e8ef05889.png)
+![image](https://user-images.githubusercontent.com/34512773/158040438-a2097acb-5453-421a-8512-ff762fe6f7a4.png)
+
 
 Top-Bar:
-![image](https://user-images.githubusercontent.com/34512773/154370210-b1f57ffa-c548-4f6e-8f84-e1b43399cecb.png)
+![image](https://user-images.githubusercontent.com/34512773/158040456-e609138b-a0eb-4bad-9b19-12e6fa29b0c0.png)
 <br><br>
 
 ## How to install
@@ -19,4 +20,4 @@ Top-Bar:
 ## License and Credits
 [MIT License](./LICENSE)
 <br>
-Main theme and inspired by [@Vapormusic/CiderTunes](https://github.com/vapormusic/CiderTunes)
+Main theme and inspiration by [@Vapormusic/CiderTunes](https://github.com/vapormusic/CiderTunes)
