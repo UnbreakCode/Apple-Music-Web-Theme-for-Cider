@@ -3,7 +3,7 @@
 An Apple Music Web theme for [Cider Music](https://cider.sh)<br><br>
 Feel free to create features/report bugs on GitHub!<br><br>
 Main Theme:
-![image](https://user-images.githubusercontent.com/34512773/158040438-a2097acb-5453-421a-8512-ff762fe6f7a4.png)
+![image](https://user-images.githubusercontent.com/34512773/158087319-1d635fc7-e3a0-4252-bc34-b8ee89160d5e.png)
 
 
 Top-Bar:
