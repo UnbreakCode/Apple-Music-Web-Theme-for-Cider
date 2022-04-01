@@ -206,10 +206,6 @@
   .playlist-page.inline-playlist .playlist-inner {
     z-index: 30;
     background: #eee;
-
-    .floating-header {
-      background: #eee;
-    }
   }
 
   .app-navigation {
@@ -303,11 +299,6 @@
   .playback-button--small.active {
     color: #fa586a;
     background-color: transparent;
-  }
-
-  .playlist-page.inline-playlist .floating-header {
-    background-color: rgba(38, 38, 38, 0.75);
-    backdrop-filter: blur(8px);
   }
 
   .playlist-page.inline-playlist .playlist-inner .close-btn {
@@ -670,17 +661,11 @@ body .app-chrome .app-chrome-item > .window-controls > div.close {
       .artist-title {
         color: var(--textColor);
       }
-
-      .floating-header {
-        background: rgba(0, 0, 0, 0.25);
-        color: var(--textColor);
-      }
     }
 
     .playlist-page {
       .floating-header {
-        background: rgba(0, 0, 0, 0.25);
-        color: var(--textColor);
+        visibility: hidden;
       }
     }
 
@@ -690,11 +675,6 @@ body .app-chrome .app-chrome-item > .window-controls > div.close {
 
     .playlist-page.inline-playlist .playlist-inner {
       background: rgb(29, 29, 29);
-
-      .floating-header {
-        background-color: rgba(38, 38, 38, 0.75);
-        backdrop-filter: blur(8px);
-      }
     }
 
     .app-chrome .app-chrome-item > .app-playback-controls {
@@ -850,11 +830,6 @@ input[type="checkbox"][switch]:checked {
 
 .playlist-page .playlist-display .artworkContainer {
   margin-top: none;
-  top: unset;
-}
-
-.playlist-page .floating-header {
-  position: unset;
   top: unset;
 }
 
