@@ -71,6 +71,48 @@
     box-shadow: inset 0px 0px 10px 10px rgb(10 10 10 / 80%);
   }
 
+  .content-inner > div:nth-child(2) {
+    .cd-hmedia-scroller.hmedia-scroller-card {
+      height: 400px;
+      margin-top: -15px;
+
+      .cd-mediaitem-square.mediaitem-card {
+        width: 100%;
+        height: 340px;
+        max-width: 270px;
+        padding-right: 0px;
+
+        & .artwork-container {
+          width: 100%;
+          height: 100%;
+
+          & .artwork {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+
+  .library-artists-page {
+    .cd-mediaitem-list-item {
+      .artwork {
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+      }
+
+      &:hover {
+        background-color: rgba(250, 35, 59, 0.8);
+        color: #fff;
+        transition: 0.1s ease-in-out;
+      }
+    }
+  }
+
   #navigation-bar {
     background: rgb(255 255 255 / 30%);
     mix-blend-mode: unset;
